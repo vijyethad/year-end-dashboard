@@ -13,8 +13,8 @@ const $app = document.getElementById('root')
 let store = createStore(reducers)
 
 ReactDOM.render(
-  <Provider store={store}>
-    <App />
-  </Provider>,
-  $app
+    <Provider store={store}>
+        <App />
+    </Provider>,
+	$app
 )
